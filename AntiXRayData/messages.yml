@@ -18,28 +18,28 @@ Messages:
   CommandReloadCmd:
     Text: '&e/antixray reload'
   CommandReloadDesc:
-    Text: '&9     - Reloads the configuration and messages.'
+    Text: '&9     - Laddar om konfihureringen och meddelanden.'
   ReloadDone:
-    Text: '&aAntiXRay was reloaded. Check the log if there were any errors.'
+    Text: '&aAntiXRay har laddats om. Kolla logfilen om det visades något fel.'
   CommandCheckCmd:
-    Text: '&e/antixray check [player]'
+    Text: '&e/antixray check [spelare]'
   CommandCheckDesc:
-    Text: '&9     - Shows you your or another players current points.'
+    Text: '&9     - Visar dina eller annan spelares poäng.'
   CurrentPoints:
-    Text: '&e{0} currently has {1} points.'
+    Text: '&e{0} har just nu {1} poäng.'
     Notes: '0: player name  1: the players points'
   ReachedLimitCount:
-    Text: '&e{0} has reached the limit {1} times.'
+    Text: '&e{0} har nåt gränsen {1} gånger.'
     Notes: '0: player name  1: how often the player has already reached the limit'
   NoPlayerDataFound:
-    Text: '&eNo PlayerData was found for ''{0}''.'
+    Text: '&eIngen data för spelare ''{0}'' hittades.'
     Notes: '0: player name'
   CommandSetCmd:
-    Text: '&e/antixray set <player> <points|counter> <value>'
+    Text: '&e/antixray set <spelare> <poäng|räknare> <värde>'
   CommandSetDesc:
-    Text: '&9     - Sets the players points or counter value.'
+    Text: '&9     - Sätter spelares räknare eller värde till en viss poäng.'
   InvalidNumber:
-    Text: '&c''{0}'' is not a valid number.'
+    Text: '&c''{0}'' är inte är giltigt nummer.'
     Notes: '0: the invalid argument'
   ChangesAreDone:
-    Text: '&aChanges were successfully made.'
+    Text: '&aAlla förändringar är gjorda.'
