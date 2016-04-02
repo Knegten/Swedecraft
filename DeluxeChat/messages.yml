@@ -1,18 +1,18 @@
 # DeluxeChat language file
 # You can edit all the messages here!
 # You must restart for changes to take affect when editing this file!
-no_permission: '&cYou don''t have permission to do that!'
-msg_incorrect_usage: '&cIncorrect usage! &7/msg <player> <message>'
-msg_recipient_not_online: '&c{0} &cis not online!'
-msg_recipient_ignoring_sender: '&c{0} &cdoes not wish to speak to you!'
-msg_recipient_is_sender: '&cYou can''t message yourself!'
-reply_incorrect_usage: '&cIncorrect usage! &7/r <message>'
-reply_no_recipient: '&cYou don''t have a recipient to reply to!'
-socialspy_toggle_on: '&aSocialspy toggled on!'
-socialspy_toggle_off: '&7Socialspy toggled off!'
-bungee_global_toggle_on: '&aChat set to global'
-bungee_global_toggle_off: '&aChat set to local'
-url_incorrect_usage: Hover for url command usage info!
-url_incorrect_usage_tooltip_1: '&7/url <link>'
-url_incorrect_usage_tooltip_2: '&7/url <link> <message>'
-chat_illegal_characters: You can't use special characters in chat!
+no_permission: '&cDu saknar rättigheterna för att göra det där!'
+msg_incorrect_usage: '&cFelaktig användning! &7/msg <spelare> <meddelande>'
+msg_recipient_not_online: '&c{0} &cär inte online!'
+msg_recipient_ignoring_sender: '&c{0} &cvill inte prata med dig!'
+msg_recipient_is_sender: '&cDu kan inte skicka privata meddelanden till dig själv!'
+reply_incorrect_usage: '&cFelaktig användning! &7/r <meddelande>'
+reply_no_recipient: '&cDu har ingen mottagare att besvara!'
+socialspy_toggle_on: '&aSocialtSpioneri Aktiverad!'
+socialspy_toggle_off: '&7SocialtSpioneri Avstängd!'
+bungee_global_toggle_on: '&aChatten är inställd på Globalt'
+bungee_global_toggle_off: '&aChatten är inställd på Lokalt'
+url_incorrect_usage: 'Håll muspekaren över för info om hur du använder dig av webadresser (url)!'
+url_incorrect_usage_tooltip_1: '&7/url <länk>'
+url_incorrect_usage_tooltip_2: '&7/url <länk> <meddelande>'
+chat_illegal_characters: 'Du kan inte använda specialtecken i chatten!'
