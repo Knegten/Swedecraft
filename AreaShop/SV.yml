@@ -8,19 +8,19 @@
 # ║ 4: Change the strings in the new file to your liking and save the file                                                     ║
 # ║ 5: Use '/as reload' or reload/restart your server to see the changes                                                       ║
 # ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
-total-maximum: "You can't rent and buy more than %0% region(s) in total (you already have %1% in group '%2%')."
+total-maximum: "Du kan inte hyra eller köpa fler än %0% område(n) totalt (du har redan %1% i gruppen '%2%')."
 
-general-notReady: "AreaShop has not fully loaded yet, please wait."
-general-noWorld: "You cannot do that, the world of this region is currently unavailable (world '%world%')."
-general-noRegion: "You cannot do that, the WorldGuard region is currently unavailable (region '%region%')."
-general-noEconomy: "There is no Economy plugin installed or it is not setup correctly, notify the server owner about this."
+general-notReady: "AreaShop har inte laddats in ordentligt än, vänligen vänta."
+general-noWorld: "Du kan inte göra det, världen för den här regionen är för närvarande otillgänglig (värld '%world%')."
+general-noRegion: "Du kan inte göra det, WorldGuard regionen är för närvarande otillgänglig (region '%region%')."
+general-noEconomy: "Det finns inget tillägg som sköter ekonomi installaerat eller rätt konfigurerat, meddela serverägaren om detta."
 general-cancelled: "%0%"
 
-cmd-notValid: "That command is not valid, use '/as help' for info."
-cmd-onlyByPlayer: "This command can only be run by a player."
-cmd-weOnlyByPlayer: "Using a WorldEdit selection is only possible as a player, specify the region name as extra argument."
-cmd-noSelection: "You don't have a WorldEdit selection."
-cmd-noRegionsFound: "No regions registered in AreaShop are found in your selection."
+cmd-notValid: "Det kommandet är inte giltigt, använd '/as help' för information."
+cmd-onlyByPlayer: "Det här kommandot kan endast köras av spelare."
+cmd-weOnlyByPlayer: "Användandet av ett WorldEdit område är enbart möjligt som spelare, specificera regionens namn som ett extra argument."
+cmd-noSelection: "Du har inget område valt med WorldEdit."
+cmd-noRegionsFound: "Inga områden registrerade i AreaShop hittades med ditt val."
 cmd-noWERegionsFound: "No WorldEdit regions intersecting your selection are found."
 cmd-notRegistered: "The specified region is not registered: %0%."
 cmd-noRegionsAtLocation: "No regions found at your location, specify the region as argument."
