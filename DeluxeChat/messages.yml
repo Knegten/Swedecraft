@@ -1,6 +1,6 @@
-# DeluxeChat language file
-# You can edit all the messages here!
-# You must restart for changes to take affect when editing this file!
+# DeluxeChat språkfil
+# Du kan redigera alla meddelanden här!
+# Du måste starta om för att ändringar här ska gälla!
 no_permission: '&cDu saknar rättigheterna för att göra det där!'
 msg_incorrect_usage: '&cFelaktig användning! &7/msg <spelare> <meddelande>'
 msg_recipient_not_online: '&c{0} &cär inte online!'
