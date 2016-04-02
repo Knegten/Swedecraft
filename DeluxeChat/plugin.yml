@@ -6,66 +6,66 @@ description: Deluxe chat formatting system
 softdepend: [AcidIsland, ASkyBlock, Autorank, AutoSell, BanManager, ChatColor, ChatReaction, CheckNameHistory, DeluxeTags, Essentials, EZBlocks, EZPrestige, EZRanksLite, EZRanksPro, Factions, GAListener, GangsPlus, Heroes, IslandWorld, Jobs, KillRewards, killStats, LWC, MarriageMaster, McInfected, McInfected-Ranks, mcMMO, MVdWPlaceholderAPI, Nicky, PlaceholderAPI, PlotMe, PlayerPoints, PlotMe, PlotSquared, PrisonGangs, pvpstats, QuickSell, RoyalCommands, SimpleClans, SimpleCoinsAPI, Simple Suffix, SkyWarsReloaded, SQLPerms, SQLTokens, SurvivalGames, Teams, TokenEnchant, Towny, TownyChat, uSkyBlock, UltimateVotes, Vault, VoteParty, Werewolf, WickedSkyWars]
 permissions:
     chatformat.default:
-        description: default chat format
+        description: Standard chatformat
         default: true
     deluxechat.color:
-        description: ability to use color codes in chat
+        description: kan använda färgkoder i chatten
         default: op
     deluxechat.formatting:
-        description: ability to use formatting codes in chat
+        description: kan använda stilkoder i chatten
         default: op
     deluxechat.utf:
-        description: ability to use special utf characters in chat
+        description: kan använda speciella utf-koder i chatten
         default: op
     deluxechat.admin:
-        description: ability to use dchat commands
+        description: kan använda dchat kommandon
         default: op
     deluxechat.filter.bypass:
-        description: ability to bypass the chat filter if enabled
+        description: ignorerar chatfiltret om det är aktivt
         default: op
     deluxechat.url:
-        description: ability to send clickable links in chat
+        description: kan skicka klickbara länkar i chatten
         default: op
     deluxechat.bungee.chat:
-        description: ability to chat globally if bungee is enabled
+        description: kan chatta globalt om bungee är aktiverat
         default: op
     deluxechat.bungee.toggle:
-        description: ability to chat globally if bungee is enabled
+        description: kan chatta globalt om bungee är aktiverat
         default: op
     deluxechat.bungee.override:
-        description: always send to all players when in global chat even if player is in server only chat
+        description: skicka alltid till alla spelare när det är globalt chattmeddelande, även om spelaren själv kör med serverchatt
         default: op
     deluxechat.pm:
-        description: ability to send private messages with /msg or /reply
+        description: kan skicka och besvara privata meddelanden med /msg or /reply
         default: op
     deluxechat.pm.color:
-        description: ability to use color codes in private messages
+        description: kan använda färgkoder i privata meddelanden
         default: op
     deluxechat.pm.formatting:
-        description: ability to use formatting codes in private messages
+        description: kan använda stilkoder i privata meddelanden
         default: op
     deluxechat.pm.url:
-        description: ability to send url links in private message
+        description: kan skicka länkar i privata meddelanden
         default: op
     deluxechat.socialspy:
-        description: ability to spy on private messages
+        description: kan spionera på privata meddelanden
         default: op
     deluxechat.socialspy.onjoin:
-        description: will toggle socialspy on when the player joins
+        description: sätter igång spionering på privata meddelanden vid inloggning
         default: op
 commands:
    dchat:
-     description: Chat utility command
+     description: Chatpogrammets huvudkommando
      aliases: [deluxechat]
    gtoggle:
-     description: Toggle global/bungeecord chat on/off
+     description: Växlar globalt/bungeecord chatt på/av
      aliases: [globaltoggle]
    msg:
-     description: Send a player a private message
+     description: Skicka ett privat meddelande till eb spelare
      aliases: [message, pm, tell, whisper, w, t, m]
    reply:
-     description: reply to a private message
+     description: Besvara ett privat meddelande
      aliases: [r]
    socialspy:
-     description: spy on private messages
+     description: spionera på privata meddelanden
      aliases: [deluxesocialspy]
