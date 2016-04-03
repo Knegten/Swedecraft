@@ -22,106 +22,106 @@
 # will never run. If f.ex. mob-cmd-run-frequency=50 and 
 # mob-cmd-run-frequency-base=100 it will run run every second time.
 mobs:
-  blaze: '10.0'
-  blaze-cmd: give {player} 397 1 3 {SkullOwner:"MHF_Blaze"}|give {player} iron_ingot 1
-  blaze-cmd-desc: You got a Blaze skull and an Iron ingot.
+  blaze: '1.0'
+  blaze-cmd: ''
+  blaze-cmd-desc: ''
   blaze-cmd-run-frequency: 10
   blaze-cmd-run-frequency-base: 100
-  creeper: '10.0'
-  creeper-cmd: give {player} 397 1 3 {SkullOwner:"MHF_Creeper"}|give {player} iron_ingot 1
-  creeper-cmd-desc: You got a Creeper skull and an Iron ingot.
+  creeper: '1.0'
+  creeper-cmd: ''
+  creeper-cmd-desc: ''
   creeper-cmd-run-frequency: 5
   creeper-cmd-run-frequency-base: 100
-  silverfish: '10'
+  silverfish: '1.0'
   silverfish-cmd: ''
   silver-cmd-desc: ''
   silverfish-cmd-run-frequency: 10
   silverfish-cmd-run-frequency-base: 100
-  zombie-pigman: '4:8'
-  zombie-pigman-cmd: give {player} 397 1 3 {SkullOwner:"MHF_PigZombie"}|give {player} iron_ingot 1
-  zombie-pigman-cmd-desc: You got a Zombie Pigman skull and an Iron ingot.
+  zombie-pigman: '1.0'
+  zombie-pigman-cmd: ''
+  zombie-pigman-cmd-desc: ''
   zombie-pigman-cmd-run-frequency: 10
   zombie-pigman-cmd-run-frequency-base: 100
-  enderman: '20:40'
-  enderman-cmd: give {player} 397 1 3 {SkullOwner:"MHF_Enderman"}|give {player} iron_ingot 1
-  enderman-cmd-desc: You got a Enderman skull and an Iron ingot.
+  enderman: '1.0'
+  enderman-cmd: ''
+  enderman-cmd-desc: ''
   enderman-cmd-run-frequency: 20
   enderman-cmd-run-frequency-base: 100
-  giant: '5.0'
-  giant-cmd: give {player} iron_ingot 1
-  giant-cmd-desc: You got an Iron ingot.
+  giant: '1.0'
+  giant-cmd: ''
+  giant-cmd-desc: ''
   giant-cmd-run-frequency: 5
   giant-cmd-run-frequency-base: 100
-  skeleton: '10:30'
-  skeleton-cmd: give {player} 397 1 3 {SkullOwner:"MHF_Skeleton"}|give {player} iron_ingot 1
-  skeleton-cmd-desc: You got a Skeleton skull and an Iron ingot.
+  skeleton: '1.0'
+  skeleton-cmd: ''
+  skeleton-cmd-desc: ''
   skeleton-cmd-run-frequency: 5
   skeleton-cmd-run-frequency-base: 100
-  wither-skeleton: '30:50'
-  wither-skeleton-cmd: give {player} 397 1 3 {SkullOwner:"MHF_WSkeleton"}|give {player} iron_ingot 1
-  wither-skeleton-cmd-desc: You got a Wither Skeleton skull and an Iron ingot.
+  wither-skeleton: '1.0'
+  wither-skeleton-cmd: ''
+  wither-skeleton-cmd-desc: ''
   wither-skeleton-cmd-run-frequency: 10
   wither-skeleton-cmd-run-frequency-base: 100
-  spider: 5.5:10.5
-  spider-cmd: give {player} 397 1 3 {SkullOwner:"MHF_Spider"}|give {player} iron_ingot 1
-  spider-cmd-desc: You got a Spider skull and an Iron ingot.
+  spider: '1.0'
+  spider-cmd: ''
+  spider-cmd-desc: ''
   spider-cmd-run-frequency: 5
   spider-cmd-run-frequency-base: 100
-  cave-spider: '10:20'
-  cave-spider-cmd: give {player} 397 1 3 {SkullOwner:"MHF_CaveSpider"}|give {player} iron_ingot 1
-  cave-spider-cmd-desc: You got a Cave Spider skull and an Iron ingot.
+  cave-spider: '1.0'
+  cave-spider-cmd: ''
+  cave-spider-cmd-desc: ''
   cave-spider-cmd-run-frequency: 10
   cave-spider-cmd-run-frequency-base: 100
-  witch: '10:15'
-  witch-cmd: give {player} 397 1 3 {SkullOwner:"MHF_Witch"}|give {player} iron_ingot 1
-  witch-cmd-desc: You got a Witch skull and an Iron ingot.
+  witch: '1.0'
+  witch-cmd: ''
+  witch-cmd-desc: ''
   witch-cmd-run-frequency: 5
   witch-cmd-run-frequency-base: 100
-  zombie: '7:11'
-  zombie-cmd: give {player} 397 1 3 {SkullOwner:"MHF_Zombie"}|give {player} iron_ingot 1
-  zombie-cmd-desc: You got a Zombie skull and an Iron ingot.
+  zombie: '1.0'
+  zombie-cmd: ''
+  zombie-cmd-desc: ''
   zombie-cmd-run-frequency: 50
   zombie-cmd-run-frequency-base: 1000
-  ghast: 40:80
-  ghast-cmd: give {player} 397 1 3 {SkullOwner:"MHF_Ghast"}|give {player} iron_ingot 1
-  ghast-cmd-desc: You got a Ghast skull and an Iron ingot.
+  ghast: '1.0'
+  ghast-cmd: ''
+  ghast-cmd-desc: ''
   ghast-cmd-run-frequency: 10
   ghast-cmd-run-frequency-base: 100
-  iron-golem: '20:40'
-  iron-golem-cmd: give {player} 397 1 3 {SkullOwner:"MHF_Golem"}|give {player} iron_ingot 1
-  iron-golem-cmd-desc: You got an Iron Golem skull and an Iron ingot.
+  iron-golem: '1.0'
+  iron-golem-cmd: ''
+  iron-golem-cmd-desc: ''
   iron-golem-cmd-run-frequency: 10
   iron-golem-cmd-run-frequency-base: 100
-  magma-cube: 40:80
-  magma-cube-cmd: give {player} 397 1 3 {SkullOwner:"MHF_LavaSlime"}|give {player} iron_ingot 1
-  magma-cube-cmd-desc: You got a Magma Cube skull and an Iron ingot.
+  magma-cube: '1.0'
+  magma-cube-cmd: ''
+  magma-cube-cmd-desc: ''
   magma-cube-cmd-run-frequency: 10
   magma-cube-cmd-run-frequency-base: 100
-  endermite: '10'
-  endermite-cmd: give {player} 397 1 3 {SkullOwner:"MHF_Endermite"}|give {player} iron_ingot 1
-  endermite-cmd-desc: You got a Endermite skull and an Iron ingot.
+  endermite: '1.0'
+  endermite-cmd: ''
+  endermite-cmd-desc: ''
   endermite-cmd-run-frequency: 10
   endermite-cmd-run-frequency-base: 100
-  guardian: '20:40'
-  guardian-cmd: give {player} 397 1 3 {SkullOwner:"MHF_Guardian"}|give {player} iron_ingot 1
-  guardian-cmd-desc: You got a Guardian skull and an Iron ingot.
+  guardian: '1.0'
+  guardian-cmd: ''
+  guardian-cmd-desc: ''
   guardian-cmd-run-frequency: 10
   guardian-cmd-run-frequency-base: 100
-  killerrabbit: '200'
+  killerrabbit: '1.0'
   killerrabbit-cmd: ''
   killerrabbit-cmd-desc: ''
   killerrabbit-cmd-run-frequency: 25
   killerrabbit-cmd-run-frequency-base: 100
 
   # This is multiplied by the size of the slime. So a big natural slime is 4x this value
-  slime-base: '1'
-  slime-cmd: give {player} 397 1 3 {SkullOwner:"MHF_Slime"}|give {player} iron_ingot 1
-  slime-cmd-desc: You got a Slime skull and an Iron ingot.
+  slime-base: '1.0'
+  slime-cmd: ''
+  slime-cmd-desc: ''
   slime-cmd-run-frequency: 5
   slime-cmd-run-frequency-base: 100
-  shulker: '25'
-  shulker-cmd: give {player} 397 1 3 {SkullOwner:"MHF_Shulker"}|give {player} iron_ingot 1
-  shulker-cmd-desc: You got a Shulker skull and an Iron ingot.
+  shulker: '1.0'
+  shulker-cmd: ''
+  shulker-cmd-desc: ''
   shulker-cmd-run-frequency: 50
 
 # ########################################################################
@@ -129,14 +129,14 @@ mobs:
 # ########################################################################
 # Here is where you set the base prize in $ for killing the bosses
 boss:
-  wither: 1000.0:2000.0
-  wither-cmd: give {player} 397 1 3 {SkullOwner:"MHF_Wither"}|give {player} diamond 2
-  wither-cmd-desc: You got a Wither skull and two Diamonds.
+  wither: '1.0'
+  wither-cmd: ''
+  wither-cmd-desc: ''
   wither-cmd-run-frequency: 100
   wither-cmd-run-frequency-base: 100
-  enderdragon: 2000.0:5000.0
-  enderdragon-cmd: give {player} 397 1 3 {SkullOwner:"MHF_Enderdragon"}|give {player} diamond 2
-  enderdragon-cmd-desc: You got a Enderdragon skull and two Diamonds.
+  enderdragon: '1.0'
+  enderdragon-cmd: ''
+  enderdragon-cmd-desc: ''
   enderdragon-cmd-run-frequency: 100
   enderdragon-cmd-run-frequency-base: 100
 
@@ -201,7 +201,7 @@ passive:
   squid-cmd: ''
   squid-cmd-desc: ''
   squid-cmd-run-frequency: 0
-  villager: '0'
+  villager: '-100'
   villager-cmd: ''
   villager-cmd-desc: ''
   villager-cmd-run-frequency: 0
@@ -247,63 +247,63 @@ bonus:
 # You can run many console commands on each line, each command
 # must be separated by |
 special:
-  charged-kill: 1000.0
-  charged-kill-cmd: give {player} gold_ingot 1
+  charged-kill: 1.0
+  charged-kill-cmd: ''
   charged-kill-cmd-desc: ''
-  creeper-punch: 1000.0
-  creeper-punch-cmd: give {player} gold_ingot 1
+  creeper-punch: 1.0
+  creeper-punch-cmd: ''
   creeper-punch-cmd-desc: ''
-  axe-murderer: 1000.0
-  axe-murderer-cmd: give {player} gold_ingot 1
+  axe-murderer: 1.0
+  axe-murderer-cmd: ''
   axe-murderer-cmd-desc: ''
-  recordhungry: 1000.0
-  recordhungry-cmd: give {player} gold_ingot 1
+  recordhungry: 1.0
+  recordhungry-cmd: ''
   recordhungry-cmd-desc: ''
-  infighting: 2000.0
-  infighting-cmd: give {player} gold_ingot 1
+  infighting: 1.0
+  infighting-cmd: ''
   infighting-cmd-desc: ''
-  by-the-book: 1000.0
-  by-the-book-cmd: give {player} gold_ingot 1
+  by-the-book: 1.0
+  by-the-book-cmd: ''
   by-the-book-cmd-desc: ''
-  creepercide: 1000.0
-  creepercide-cmd: give {player} gold_ingot 1
+  creepercide: 1.0
+  creepercide-cmd: ''
   creepercide-cmd-desc: ''
-  hunt-begins: 500.0
+  hunt-begins: 1.0
   hunt-begins-cmd: ''
   hunt-begins-cmd-desc: ''
-  itsmagic: 2000.0
-  itsmagic-cmd: give {player} gold_ingot 1
-  itsmagic-cmd-desc: Enjoy you Gold Ingot
-  fancypants: 1000.0
-  fancypants-cmd: give {player} gold_ingot 1
-  fancypants-cmd-desc: Enjoy you Gold Ingots
-  master-sniper: 2000.0
-  master-sniper-cmd: give {player} gold_ingot 1
-  master-sniper-cmd-desc: Enjoy you Gold Ingots
-  fangmaster: 1000.0
-  fangmaster-cmd: give {player} gold_ingot 1
-  fangmaster-cmd-desc: Enjoy your Gold Ingot
-  hunter1: 1000.0
-  hunter1-cmd: give {player} gold_ingot 5
-  hunter1-cmd-desc: Enjoy your 5 Gold Ingots
-  hunter2: 2500.0
-  hunter2-cmd: give {player} gold_ingot 10
-  hunter2-cmd-desc: Enjoy your 10 Gold Ingots
-  hunter3: 5000.0
-  hunter3-cmd: give {player} gold_ingot 20
-  hunter3-cmd-desc: Enjoy your 20 Gold Ingots
-  hunter4: 10000.0
-  hunter4-cmd: give {player} gold_ingot 25
-  hunter4-cmd-desc: Enjoy your 25 Gold Ingots
-  hunter5: 20000.0
-  hunter5-cmd: give {player} gold_ingot 40
-  hunter5-cmd-desc: Enjoy your 40 Gold Ingots
-  hunter6: 40000.0
-  hunter6-cmd: give {player} gold_ingot 50
-  hunter6-cmd-desc: Enjoy your 50 Gold Ingots
-  hunter7: 80000.0
-  hunter7-cmd: give {player} gold_ingot 60
-  hunter7-cmd-desc: Enjoy your 60 Gold Ingots
+  itsmagic: 1.0
+  itsmagic-cmd: ''
+  itsmagic-cmd-desc: ''
+  fancypants: 1.0
+  fancypants-cmd: ''
+  fancypants-cmd-desc: ''
+  master-sniper: 1.0
+  master-sniper-cmd: ''
+  master-sniper-cmd-desc: ''
+  fangmaster: 1.0
+  fangmaster-cmd: ''
+  fangmaster-cmd-desc: ''
+  hunter1: 1.0
+  hunter1-cmd: ''
+  hunter1-cmd-desc: ''
+  hunter2: 1.0
+  hunter2-cmd: ''
+  hunter2-cmd-desc: ''
+  hunter3: 1.0
+  hunter3-cmd: ''
+  hunter3-cmd-desc: ''
+  hunter4: 1.0
+  hunter4-cmd: ''
+  hunter4-cmd-desc: ''
+  hunter5: 1.0
+  hunter5-cmd: ''
+  hunter5-cmd-desc: ''
+  hunter6: 1.0
+  hunter6-cmd: ''
+  hunter6-cmd-desc: ''
+  hunter7: 1.0
+  hunter7-cmd: ''
+  hunter7-cmd-desc: ''
 
 # ########################################################################
 # Rewards for assisting killings
@@ -401,10 +401,10 @@ pvp:
   pvp-kill-prize: 1.5%
 
   # One or more console commands to be run when a player kills another player.
-  pvp-kill-cmd: give {player} 397 1 3 {SkullOwner:"{killed_player}"}|give {player} diamond 1
+  pvp-kill-cmd: ''
 
   # Write the message to the killer, describing the reward / console commands
-  pvp-kill-cmd-desc: You got {killed_player}'s skull
+  pvp-kill-cmd-desc: ''
 
 # ########################################################################
 # Disguises rewards
@@ -414,13 +414,13 @@ pvp:
 disguises:
 
   # Disable integration with iDisguise
-  disable-integration-i-disguise: false
+  disable-integration-i-disguise: true
 
   # Disable integration with DisguiseCcraft
-  disable-integration-disguisecraft: false
+  disable-integration-disguisecraft: true
 
   # Disable integration with LibsDisguises
-  disable-integration-libsdisguises: false
+  disable-integration-libsdisguises: true
 
   # Set pvpAllowed=false to disable rewards on killing other players.
   remove-disguise-when-attacking: true
@@ -444,13 +444,13 @@ disguises:
 plugins:
 
   # Disable integration with MobArena
-  disable-integration-mobarena: false
+  disable-integration-mobarena: true
 
   # Set to true if you want the players to get rewards while playing MobArena.
   mobarena-get-rewards: false
 
   # Disable integration with PvpArena
-  disable-integration-pvparena: false
+  disable-integration-pvparena: true
 
   # Set to true if you want the players to get rewards while playing pvpArena.
   pvparena-get-rewards: false
@@ -462,10 +462,10 @@ plugins:
   disable-integration-mythicmobs: false
 
   # Disable integration with MyPet
-  disable-integration-mypet: false
+  disable-integration-mypet: true
 
   # Disable integration with MiniGames
-  disable-integration-minigames: false
+  disable-integration-minigames: true
 
   # Disable integration with WorldGuard
   disable-integration-worldguard: false
