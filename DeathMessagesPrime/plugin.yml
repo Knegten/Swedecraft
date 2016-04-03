@@ -5,18 +5,18 @@ description: Very customizable death message interface.
 author: CosmoConsole
 commands:
    dmsg:
-      description: See the version of the plugin and reload it.
-      usage: /<command> [reload]
+      description: Se vilken version som körs samt ladda om konfigurering.
+      usage: /<kommando> [reload]
 permissions:
    deathmessagesprime.*:
-      description: Gives access to all DeathMessagesPrime features.
+      description: Ger tillgång till Deathmessages alla funktioner.
       default: op
       children:
          deathmessagesprime.reload: true
          deathmessagesprime.debug: true
    deathmessagesprime.reload:
-      description: Gives access to reload the DeathMessagesPrime plugin's configuration.
+      description: Ger tillgång till Deathmessages konfigurering.
       default: op
    deathmessagesprime.debug:
-      description: Broadcasts death debug information if debug mode is enabled.
+      description: Skickar ut debugg meddelanden om debugg är aktivt.
       default: op
