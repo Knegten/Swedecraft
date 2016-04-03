@@ -15,7 +15,7 @@ LootBagKey: '&r&0'
 
 ##Using Dispensers may cause significant lag if you have a decent amount of redstone circuts on the server
 ##This also applies to Droppers
-DispenserLoot: true
+DispenserLoot: false
 
 ##Using MobLoot may cause significant lag if there are numerous mobs on the server
 ##e.g. Zombie, Creeper, Skeleton, Spider, Player
@@ -56,9 +56,6 @@ VotifierLoot: false
 Blocks:
     - Chest
     - Trapped Chest
-    - Ender Chest
-    - Dispenser
-    - Dropper
     - Bookshelf
 
 ##Every block in the specified Worlds that matches a listed Material will be linked to the given PhatLoot
@@ -78,11 +75,11 @@ AutoLink: []
 ##If set to true then the items normally dropped by mobs will vanish
 ##If set to false then Mob PhatLoot items will be in addition to the normally dropped loot
 ##In either case, a mob's loot will not be affected if it doesn't have a PhatLoot file
-ReplaceMobLoot: true
+ReplaceMobLoot: false
 
 
 ##If set to true then Mobs will not drop any items/exp unless they are killed by a Player
-OnlyDropLootWhenKilledByPlayer: false
+OnlyDropLootWhenKilledByPlayer: true
 OnlyDropExpWhenKilledByPlayer: false
 
 
@@ -110,19 +107,19 @@ LootingBonusPerLevel: 5
 ##<item> will be replaced by the name of the item
 ##<amount> will be replaced by the amount of money/experience/items
 Messages:
-    Permission: '&4You do not have permission to do that.'
-    ExperienceLooted: '&5You gained &6<amount>&5 experience from looting the chest.'
-    MoneyLooted: '&5You looted &6<amount>&5 from the chest.'
-    MoneyCharged: '&5You have been charged &6<amount>&5 to loot the chest.'
-    InsufficientFunds: '&4You must have &6<amount>&4 to loot the chest.'
-    AutoLoot: '&5You looted &6<item>&5 from the chest.'
-    Overflow: '&5The Chest is overflowing with loot!'
-    ChestTimeRemaining: '&4You must wait &6<time>&4 to receive more loot!'
-    EmptyChestTimeRemaining: '&4You must wait &6<time>&4 to receive more loot!'
-    CommandTimeRemaining: '&4You must wait &6<time>&4 to receive more loot!'
+    Permission: '&4Du saknar rättigheterna till det.'
+    ExperienceLooted: '&5Du fick &6<amount>&5 erfarenhet för att lootat den här kistan.'
+    MoneyLooted: '&5Du lootade &6<amount>&5 från den här kistan.'
+    MoneyCharged: '&5Du betalade &6<amount>&5 för att få loota den här kistan.'
+    InsufficientFunds: '&4Du måste ha &6<amount>&4 för att loota den här kistan.'
+    AutoLoot: '&5Du lootade &6<item>&5 från kistan.'
+    Overflow: '&5Kistan är överfull med loot!'
+    ChestTimeRemaining: '&4Du måste vänta &6<time>&4 innan du kan få mer loot!'
+    EmptyChestTimeRemaining: '&4Du måste vänta &6<time>&4 innan du får mer loot!'
+    CommandTimeRemaining: '&4Du måste vänta &6<time>&4 för att få mer loot!'
     DispenserTimeRemaining: ''
-    MobTimeRemaining: '&4You must wait &6<time>&4 to receive more loot!'
-    MobDroppedMoney: '&5You loot &6<amount>.'
+    MobTimeRemaining: '&4Du måste vänta &6<time>&4 för att få mer loot!'
+    MobDroppedMoney: '&5Du lootade &6<amount>.'
     MobDroppedItem: ''
     MobDroppedExperience: ''
     LootMessage: ''
@@ -130,21 +127,21 @@ Messages:
 
 ##PhatLoot Chests will display this name at the top of the Chest GUI
 ##<name> will be replaced with the name of the linked PhatLoot
-ChestName: '&6<name>'
+ChestName: '&1SKATTKISTA'
 
 #Damage estimates (as ranges) may be added to the lore of loot
 #Do so by making a line of lore one of the following tags
 UseDamageTags: true
-<dam>: '&5<amount> damage'
-<holy>: '&6+<amount> holy damage'
-<fire>: '&4+<amount> fire'
+<dam>: '&5<amount> skada'
+<holy>: '&6+<amount> helig skada'
+<fire>: '&4+<amount> eld'
 <bug>: '&2+<amount> bug repellent'
-<thorns>: '&8<chance>% chance of 1-4 damage'
-<def>: '&5<amount> defense'
-<firedef>: '&4+<amount> fire defense'
-<rangedef>: '&2+<amount> range defense'
-<blastdef>: '&1+<amount> explosion defense'
-<falldef>: '&b+<amount> fall defense'
+<thorns>: '&8<chance>% chans till 1-4 skada'
+<def>: '&5<amount> försvar'
+<firedef>: '&4+<amount> eldförsvar'
+<rangedef>: '&2+<amount> distansförsvar'
+<blastdef>: '&1+<amount> explosionsförsvar'
+<falldef>: '&b+<amount> fallskydd'
 
 
 ################## DEFAULTS ##################
@@ -203,12 +200,11 @@ Defaults:
 ##You can add as many PhatLoots to this list as you want, just be sure to use spaces instead of tabs
 RestrictAll: false
 RestrictedPhatLoots:
-    - 'PhatLoot1'
-    - 'PhatLoot2'
-    - 'PhatLoot3'
-#    - 'Rare'
+    - 'donator'
+    - 'brons'
+    - 'silver'
+    - 'guld'
 #    - 'Epic'
-#    - 'Donator'
 
 
 ##Whenever an Item is generated that has a Tier above this number it will be logged
@@ -233,7 +229,7 @@ UseBreakAndRespawn: true
 
 
 #If set to true, Loot will be scattered throughout the Chest rather than all in the top left corner
-ShuffleLoot: false
+ShuffleLoot: true
 
 
 #If set to true, Collections which give more than 1 item have a chance to spawn a specific item more than once
