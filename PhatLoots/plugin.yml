@@ -8,18 +8,18 @@ load: postworld
 softdepend: [Vault, MythicDrops, RegionTools, WorldGuard, Econ, Votifier, Multiverse-Core]
 commands:
   loot:
-    description: Used to setup PhatLoot Chests and rewards
-    usage: /<command> help
+    description: Används för att ställa in loot och belöningar
+    usage: /<kommando> help
 permissions:
   phatloots.loot.*:
-    description: Needed to receive loots from any restricted PhatLoot
+    description: Krävs för att få öppna alla lootkistor som kräver speciella rättigheter
   phatloots.moneyfrommobs:
-    description: Needed to receive money from mobs
+    description: Krävs för att få pengar från mobs
     default: true
   phatloots.commandloot:
-    description: Needed to receive loots through command
+    description: krävs för att få loot genom kommandon
   phatloots.reload:
-    description: Needed to reload the PhatLoots plugin (/loot reload)
+    description: krävs för att kunna ladda om phatloot (/loot reload)
   phatloots.reset:
     description: Needed to reset the list of users who looted PhatLoots (/loot reset)
   phatloots.clean:
